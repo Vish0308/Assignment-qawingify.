@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Demo App]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[Demo App]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Demo App]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-23T21:12:09 IST" name="Default suite" finished-at="2023-01-23T21:13:37 IST" duration-ms="88867">
+    <groups>
+    </groups>
+    <test started-at="2023-01-23T21:12:09 IST" name="Default test" finished-at="2023-01-23T21:13:37 IST" duration-ms="88867">
+      <class name="script.LoginPage">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.LoginPage@6d3a388c]" started-at="2023-01-23T21:12:09 IST" name="openApp" finished-at="2023-01-23T21:12:56 IST" duration-ms="47163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Demo App]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="EnterVaildLogin()[pri:0, instance:script.LoginPage@6d3a388c]" started-at="2023-01-23T21:12:56 IST" name="EnterVaildLogin" finished-at="2023-01-23T21:13:00 IST" duration-ms="4011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+            <line>
+              <![CDATA[Demo App]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EnterVaildLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.LoginPage@6d3a388c]" started-at="2023-01-23T21:13:00 IST" name="closeApp" finished-at="2023-01-23T21:13:02 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.LoginPage -->
+      <class name="script.HomePage">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.HomePage@5fbdfdcf]" started-at="2023-01-23T21:13:02 IST" name="openApp" finished-at="2023-01-23T21:13:29 IST" duration-ms="27048" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Demo App]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="ClickAmount()[pri:0, instance:script.HomePage@5fbdfdcf]" started-at="2023-01-23T21:13:29 IST" name="ClickAmount" finished-at="2023-01-23T21:13:36 IST" duration-ms="6029" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickAmount -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.HomePage@5fbdfdcf]" started-at="2023-01-23T21:13:36 IST" name="closeApp" finished-at="2023-01-23T21:13:37 IST" duration-ms="1982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
